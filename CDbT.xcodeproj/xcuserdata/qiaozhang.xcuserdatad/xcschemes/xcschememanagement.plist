@@ -9,13 +9,23 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>HitList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E76DCCB51E36A41800E1CB02</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
+		</dict>
+		<key>E76DCCCE1E36A44C00E1CB02</key>
+		<dict>
+			<key>primary</key>
+			<true />
 		</dict>
 	</dict>
 </dict>
