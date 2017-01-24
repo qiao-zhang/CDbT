@@ -33,6 +33,27 @@
 		E7D565CE1E37BD25004DC662 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D565CA1E37BD25004DC662 /* Walk+CoreDataProperties.swift */; };
 		E7D565CF1E37BD25004DC662 /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D565CB1E37BD25004DC662 /* Dog+CoreDataClass.swift */; };
 		E7D565D01E37BD25004DC662 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D565CC1E37BD25004DC662 /* Dog+CoreDataProperties.swift */; };
+		E7D566481E37E517004DC662 /* Bubble_Tea_Finder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7D5663F1E37E517004DC662 /* Bubble_Tea_Finder.xcdatamodeld */; };
+		E7D566491E37E517004DC662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566411E37E517004DC662 /* AppDelegate.swift */; };
+		E7D5664A1E37E517004DC662 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7D566421E37E517004DC662 /* attribution.txt */; };
+		E7D5664B1E37E517004DC662 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566431E37E517004DC662 /* CoreDataStack.swift */; };
+		E7D5664C1E37E517004DC662 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566441E37E517004DC662 /* FilterViewController.swift */; };
+		E7D5664D1E37E517004DC662 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7D566451E37E517004DC662 /* Info.plist */; };
+		E7D5664E1E37E517004DC662 /* seed.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D566461E37E517004DC662 /* seed.json */; };
+		E7D5664F1E37E517004DC662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566471E37E517004DC662 /* ViewController.swift */; };
+		E7D5665C1E37E553004DC662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D566501E37E553004DC662 /* Assets.xcassets */; };
+		E7D5665D1E37E553004DC662 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566521E37E553004DC662 /* Category+CoreDataClass.swift */; };
+		E7D5665E1E37E553004DC662 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566531E37E553004DC662 /* Category+CoreDataProperties.swift */; };
+		E7D5665F1E37E553004DC662 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566541E37E553004DC662 /* Location+CoreDataClass.swift */; };
+		E7D566601E37E553004DC662 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566551E37E553004DC662 /* Location+CoreDataProperties.swift */; };
+		E7D566611E37E553004DC662 /* PriceInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566561E37E553004DC662 /* PriceInfo+CoreDataClass.swift */; };
+		E7D566621E37E553004DC662 /* PriceInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566571E37E553004DC662 /* PriceInfo+CoreDataProperties.swift */; };
+		E7D566631E37E553004DC662 /* Stats+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566581E37E553004DC662 /* Stats+CoreDataClass.swift */; };
+		E7D566641E37E553004DC662 /* Stats+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566591E37E553004DC662 /* Stats+CoreDataProperties.swift */; };
+		E7D566651E37E553004DC662 /* Venue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5665A1E37E553004DC662 /* Venue+CoreDataClass.swift */; };
+		E7D566661E37E553004DC662 /* Venue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5665B1E37E553004DC662 /* Venue+CoreDataProperties.swift */; };
+		E7D5666B1E37E563004DC662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D566671E37E563004DC662 /* LaunchScreen.storyboard */; };
+		E7D5666C1E37E563004DC662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D566691E37E563004DC662 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +89,28 @@
 		E7D565CA1E37BD25004DC662 /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E7D565CB1E37BD25004DC662 /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E7D565CC1E37BD25004DC662 /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7D566141E37E43F004DC662 /* Bubble Tea Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bubble Tea Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D566401E37E517004DC662 /* Bubble_Tea_Finder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bubble_Tea_Finder.xcdatamodel; sourceTree = "<group>"; };
+		E7D566411E37E517004DC662 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7D566421E37E517004DC662 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		E7D566431E37E517004DC662 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		E7D566441E37E517004DC662 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		E7D566451E37E517004DC662 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D566461E37E517004DC662 /* seed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seed.json; sourceTree = "<group>"; };
+		E7D566471E37E517004DC662 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7D566501E37E553004DC662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7D566521E37E553004DC662 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7D566531E37E553004DC662 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7D566541E37E553004DC662 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7D566551E37E553004DC662 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7D566561E37E553004DC662 /* PriceInfo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PriceInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7D566571E37E553004DC662 /* PriceInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PriceInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7D566581E37E553004DC662 /* Stats+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stats+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7D566591E37E553004DC662 /* Stats+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stats+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7D5665A1E37E553004DC662 /* Venue+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Venue+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7D5665B1E37E553004DC662 /* Venue+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Venue+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7D566681E37E563004DC662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7D5666A1E37E563004DC662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +135,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7D566111E37E43F004DC662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +151,7 @@
 				E76DCCD01E36A44C00E1CB02 /* HitList */,
 				E76DCD021E36DA4E00E1CB02 /* Bow Ties */,
 				E7D565B31E37A69B004DC662 /* Dog Walk */,
+				E7D566151E37E43F004DC662 /* Bubble Tea Finder */,
 				E76DCCB71E36A41800E1CB02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,6 +162,7 @@
 				E76DCCCF1E36A44C00E1CB02 /* HitList.app */,
 				E76DCD011E36DA4E00E1CB02 /* Bow Ties.app */,
 				E7D565B21E37A69B004DC662 /* Dog Walk.app */,
+				E7D566141E37E43F004DC662 /* Bubble Tea Finder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +215,42 @@
 				E7D565C61E37BC0C004DC662 /* Dog Walk.xcdatamodeld */,
 			);
 			path = "Dog Walk";
+			sourceTree = "<group>";
+		};
+		E7D566151E37E43F004DC662 /* Bubble Tea Finder */ = {
+			isa = PBXGroup;
+			children = (
+				E7D566671E37E563004DC662 /* LaunchScreen.storyboard */,
+				E7D566691E37E563004DC662 /* Main.storyboard */,
+				E7D566501E37E553004DC662 /* Assets.xcassets */,
+				E7D566511E37E553004DC662 /* NSManagedObject */,
+				E7D5663F1E37E517004DC662 /* Bubble_Tea_Finder.xcdatamodeld */,
+				E7D566411E37E517004DC662 /* AppDelegate.swift */,
+				E7D566421E37E517004DC662 /* attribution.txt */,
+				E7D566431E37E517004DC662 /* CoreDataStack.swift */,
+				E7D566441E37E517004DC662 /* FilterViewController.swift */,
+				E7D566451E37E517004DC662 /* Info.plist */,
+				E7D566461E37E517004DC662 /* seed.json */,
+				E7D566471E37E517004DC662 /* ViewController.swift */,
+			);
+			path = "Bubble Tea Finder";
+			sourceTree = "<group>";
+		};
+		E7D566511E37E553004DC662 /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				E7D566521E37E553004DC662 /* Category+CoreDataClass.swift */,
+				E7D566531E37E553004DC662 /* Category+CoreDataProperties.swift */,
+				E7D566541E37E553004DC662 /* Location+CoreDataClass.swift */,
+				E7D566551E37E553004DC662 /* Location+CoreDataProperties.swift */,
+				E7D566561E37E553004DC662 /* PriceInfo+CoreDataClass.swift */,
+				E7D566571E37E553004DC662 /* PriceInfo+CoreDataProperties.swift */,
+				E7D566581E37E553004DC662 /* Stats+CoreDataClass.swift */,
+				E7D566591E37E553004DC662 /* Stats+CoreDataProperties.swift */,
+				E7D5665A1E37E553004DC662 /* Venue+CoreDataClass.swift */,
+				E7D5665B1E37E553004DC662 /* Venue+CoreDataProperties.swift */,
+			);
+			path = NSManagedObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +307,23 @@
 			productReference = E7D565B21E37A69B004DC662 /* Dog Walk.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E7D566131E37E43F004DC662 /* Bubble Tea Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D566231E37E43F004DC662 /* Build configuration list for PBXNativeTarget "Bubble Tea Finder" */;
+			buildPhases = (
+				E7D566101E37E43F004DC662 /* Sources */,
+				E7D566111E37E43F004DC662 /* Frameworks */,
+				E7D566121E37E43F004DC662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bubble Tea Finder";
+			productName = "Bubble Tea Finder";
+			productReference = E7D566141E37E43F004DC662 /* Bubble Tea Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,6 +349,12 @@
 						DevelopmentTeam = 5H9H3DSGAL;
 						ProvisioningStyle = Automatic;
 					};
+					E7D566131E37E43F004DC662 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5H9H3DSGAL;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = E76DCCB11E36A41800E1CB02 /* Build configuration list for PBXProject "CDbT" */;
@@ -262,6 +373,7 @@
 				E76DCCCE1E36A44C00E1CB02 /* HitList */,
 				E76DCD001E36DA4E00E1CB02 /* Bow Ties */,
 				E7D565B11E37A69B004DC662 /* Dog Walk */,
+				E7D566131E37E43F004DC662 /* Bubble Tea Finder */,
 			);
 		};
 /* End PBXProject section */
@@ -295,6 +407,19 @@
 				E7D565BF1E37A69B004DC662 /* LaunchScreen.storyboard in Resources */,
 				E7D565BC1E37A69B004DC662 /* Assets.xcassets in Resources */,
 				E7D565BA1E37A69B004DC662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D566121E37E43F004DC662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D5664D1E37E517004DC662 /* Info.plist in Resources */,
+				E7D5664E1E37E517004DC662 /* seed.json in Resources */,
+				E7D5665C1E37E553004DC662 /* Assets.xcassets in Resources */,
+				E7D5666C1E37E563004DC662 /* Main.storyboard in Resources */,
+				E7D5666B1E37E563004DC662 /* LaunchScreen.storyboard in Resources */,
+				E7D5664A1E37E517004DC662 /* attribution.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +460,28 @@
 				E7D565CE1E37BD25004DC662 /* Walk+CoreDataProperties.swift in Sources */,
 				E7D565B51E37A69B004DC662 /* AppDelegate.swift in Sources */,
 				E7D565CF1E37BD25004DC662 /* Dog+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D566101E37E43F004DC662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D566621E37E553004DC662 /* PriceInfo+CoreDataProperties.swift in Sources */,
+				E7D5665E1E37E553004DC662 /* Category+CoreDataProperties.swift in Sources */,
+				E7D5664F1E37E517004DC662 /* ViewController.swift in Sources */,
+				E7D5665D1E37E553004DC662 /* Category+CoreDataClass.swift in Sources */,
+				E7D566611E37E553004DC662 /* PriceInfo+CoreDataClass.swift in Sources */,
+				E7D566651E37E553004DC662 /* Venue+CoreDataClass.swift in Sources */,
+				E7D5664B1E37E517004DC662 /* CoreDataStack.swift in Sources */,
+				E7D5665F1E37E553004DC662 /* Location+CoreDataClass.swift in Sources */,
+				E7D566601E37E553004DC662 /* Location+CoreDataProperties.swift in Sources */,
+				E7D566641E37E553004DC662 /* Stats+CoreDataProperties.swift in Sources */,
+				E7D566491E37E517004DC662 /* AppDelegate.swift in Sources */,
+				E7D566661E37E553004DC662 /* Venue+CoreDataProperties.swift in Sources */,
+				E7D5664C1E37E517004DC662 /* FilterViewController.swift in Sources */,
+				E7D566481E37E517004DC662 /* Bubble_Tea_Finder.xcdatamodeld in Sources */,
+				E7D566631E37E553004DC662 /* Stats+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +534,22 @@
 				E7D565BE1E37A69B004DC662 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D566671E37E563004DC662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D566681E37E563004DC662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D566691E37E563004DC662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D5666A1E37E563004DC662 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -561,6 +724,35 @@
 			};
 			name = Release;
 		};
+		E7D566241E37E43F004DC662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5H9H3DSGAL;
+				INFOPLIST_FILE = "Bubble Tea Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qiaozhang.Bubble-Tea-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E7D566251E37E43F004DC662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5H9H3DSGAL;
+				INFOPLIST_FILE = "Bubble Tea Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qiaozhang.Bubble-Tea-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,6 +791,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
+		E7D566231E37E43F004DC662 /* Build configuration list for PBXNativeTarget "Bubble Tea Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D566241E37E43F004DC662 /* Debug */,
+				E7D566251E37E43F004DC662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -629,6 +829,16 @@
 			);
 			currentVersion = E7D565C71E37BC0C004DC662 /* Dog Walk.xcdatamodel */;
 			path = "Dog Walk.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		E7D5663F1E37E517004DC662 /* Bubble_Tea_Finder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7D566401E37E517004DC662 /* Bubble_Tea_Finder.xcdatamodel */,
+			);
+			currentVersion = E7D566401E37E517004DC662 /* Bubble_Tea_Finder.xcdatamodel */;
+			path = Bubble_Tea_Finder.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
