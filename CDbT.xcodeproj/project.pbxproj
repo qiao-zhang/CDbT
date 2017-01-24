@@ -22,6 +22,11 @@
 		E76DCD201E36E37000E1CB02 /* Bowtie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DCD1E1E36E37000E1CB02 /* Bowtie+CoreDataClass.swift */; };
 		E76DCD211E36E37000E1CB02 /* Bowtie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DCD1F1E36E37000E1CB02 /* Bowtie+CoreDataProperties.swift */; };
 		E76DCD231E36E8B400E1CB02 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E76DCD221E36E8B400E1CB02 /* SampleData.plist */; };
+		E7D565B51E37A69B004DC662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D565B41E37A69B004DC662 /* AppDelegate.swift */; };
+		E7D565B71E37A69B004DC662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D565B61E37A69B004DC662 /* ViewController.swift */; };
+		E7D565BA1E37A69B004DC662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D565B81E37A69B004DC662 /* Main.storyboard */; };
+		E7D565BC1E37A69B004DC662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D565BB1E37A69B004DC662 /* Assets.xcassets */; };
+		E7D565BF1E37A69B004DC662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D565BD1E37A69B004DC662 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,13 @@
 		E76DCD1E1E36E37000E1CB02 /* Bowtie+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E76DCD1F1E36E37000E1CB02 /* Bowtie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E76DCD221E36E8B400E1CB02 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		E7D565B21E37A69B004DC662 /* Dog Walk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Walk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D565B41E37A69B004DC662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7D565B61E37A69B004DC662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7D565B91E37A69B004DC662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7D565BB1E37A69B004DC662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7D565BE1E37A69B004DC662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7D565C01E37A69B004DC662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7D565AF1E37A69B004DC662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,6 +88,7 @@
 			children = (
 				E76DCCD01E36A44C00E1CB02 /* HitList */,
 				E76DCD021E36DA4E00E1CB02 /* Bow Ties */,
+				E7D565B31E37A69B004DC662 /* Dog Walk */,
 				E76DCCB71E36A41800E1CB02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +98,7 @@
 			children = (
 				E76DCCCF1E36A44C00E1CB02 /* HitList.app */,
 				E76DCD011E36DA4E00E1CB02 /* Bow Ties.app */,
+				E7D565B21E37A69B004DC662 /* Dog Walk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +132,19 @@
 				E76DCD0A1E36DA4E00E1CB02 /* Bow_Ties.xcdatamodeld */,
 			);
 			path = "Bow Ties";
+			sourceTree = "<group>";
+		};
+		E7D565B31E37A69B004DC662 /* Dog Walk */ = {
+			isa = PBXGroup;
+			children = (
+				E7D565B41E37A69B004DC662 /* AppDelegate.swift */,
+				E7D565B61E37A69B004DC662 /* ViewController.swift */,
+				E7D565B81E37A69B004DC662 /* Main.storyboard */,
+				E7D565BB1E37A69B004DC662 /* Assets.xcassets */,
+				E7D565BD1E37A69B004DC662 /* LaunchScreen.storyboard */,
+				E7D565C01E37A69B004DC662 /* Info.plist */,
+			);
+			path = "Dog Walk";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +184,23 @@
 			productReference = E76DCD011E36DA4E00E1CB02 /* Bow Ties.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E7D565B11E37A69B004DC662 /* Dog Walk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D565C31E37A69B004DC662 /* Build configuration list for PBXNativeTarget "Dog Walk" */;
+			buildPhases = (
+				E7D565AE1E37A69B004DC662 /* Sources */,
+				E7D565AF1E37A69B004DC662 /* Frameworks */,
+				E7D565B01E37A69B004DC662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dog Walk";
+			productName = "Dog Walk";
+			productReference = E7D565B21E37A69B004DC662 /* Dog Walk.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,6 +217,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					E76DCD001E36DA4E00E1CB02 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5H9H3DSGAL;
+						ProvisioningStyle = Automatic;
+					};
+					E7D565B11E37A69B004DC662 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 5H9H3DSGAL;
 						ProvisioningStyle = Automatic;
@@ -187,6 +243,7 @@
 			targets = (
 				E76DCCCE1E36A44C00E1CB02 /* HitList */,
 				E76DCD001E36DA4E00E1CB02 /* Bow Ties */,
+				E7D565B11E37A69B004DC662 /* Dog Walk */,
 			);
 		};
 /* End PBXProject section */
@@ -213,6 +270,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7D565B01E37A69B004DC662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D565BF1E37A69B004DC662 /* LaunchScreen.storyboard in Resources */,
+				E7D565BC1E37A69B004DC662 /* Assets.xcassets in Resources */,
+				E7D565BA1E37A69B004DC662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -235,6 +302,15 @@
 				E76DCD041E36DA4E00E1CB02 /* AppDelegate.swift in Sources */,
 				E76DCD201E36E37000E1CB02 /* Bowtie+CoreDataClass.swift in Sources */,
 				E76DCD211E36E37000E1CB02 /* Bowtie+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D565AE1E37A69B004DC662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D565B71E37A69B004DC662 /* ViewController.swift in Sources */,
+				E7D565B51E37A69B004DC662 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +345,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E76DCD101E36DA4E00E1CB02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D565B81E37A69B004DC662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D565B91E37A69B004DC662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D565BD1E37A69B004DC662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D565BE1E37A69B004DC662 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -419,6 +511,32 @@
 			};
 			name = Release;
 		};
+		E7D565C11E37A69B004DC662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H9H3DSGAL;
+				INFOPLIST_FILE = "Dog Walk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qiaozhang.Dog-Walk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E7D565C21E37A69B004DC662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H9H3DSGAL;
+				INFOPLIST_FILE = "Dog Walk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qiaozhang.Dog-Walk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +566,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E7D565C31E37A69B004DC662 /* Build configuration list for PBXNativeTarget "Dog Walk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D565C11E37A69B004DC662 /* Debug */,
+				E7D565C21E37A69B004DC662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
