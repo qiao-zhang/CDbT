@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bow Ties.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>CDbT.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true />
 		</dict>
 		<key>E76DCCCE1E36A44C00E1CB02</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>E76DCCE71E36D94A00E1CB02</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>E76DCD001E36DA4E00E1CB02</key>
 		<dict>
 			<key>primary</key>
 			<true />
