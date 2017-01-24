@@ -21,10 +21,11 @@
  */
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
-  // MARK: - Properties
+  // MARK: Properties
   lazy var dateFormatter: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateStyle = .short
@@ -32,17 +33,18 @@ class ViewController: UIViewController {
     return formatter
   }()
   var walks: [NSDate] = []
+  var managedContext: NSManagedObjectContext!
 
-  // MARK: - IBOutlets
+  // MARK: IBOutlets
   @IBOutlet var tableView: UITableView!
 
-  // MARK: - View Life Cycle
+  // MARK: View Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
   }
 
-  // MARK: - IBActions
+  // MARK: IBActions
   @IBAction func add(_ sender: UIBarButtonItem) {
     walks.append(NSDate())
     tableView.reloadData()
@@ -50,7 +52,7 @@ class ViewController: UIViewController {
 
 }
 
-// MARK: UITableViewDataSource
+// MARK: - UITableViewDataSource
 extension ViewController: UITableViewDataSource {
 
   func tableView(_ tableView: UITableView,
