@@ -39,6 +39,22 @@ class ViewController: UIViewController {
   // MARK: - View Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    let batchUpdate = NSBatchUpdateRequest(entityName: "Venue")
+    batchUpdate.propertiesToUpdate = [#keyPath(Venue.favorite): true]
+    batchUpdate.affectedStores = coreDataStack.managedContext
+        .persistentStoreCoordinator?.persistentStores
+    batchUpdate.resultType = .updatedObjectsCountResultType
+    
+    do {
+      let batchResult = try coreDataStack.managedContext.execute(
+          batchUpdate) as! NSBatchUpdateResult
+      print("\(batchResult.result!) records updated")
+    } catch {
+      let nsError = error as NSError
+      print("Could not update \(nsError), \(nsError.userInfo)")
+    }
+    
     fetchRequest = Venue.fetchRequest()
     fetchAndReload()
   }
@@ -66,12 +82,30 @@ class ViewController: UIViewController {
       print("Could not fetch \(nsError), \(nsError.userInfo)")
     }
   }
+  
+  func deleteAllVenues() {
+    let fetchRequest: NSFetchRequest<NSFetchRequestResult> = Venue.fetchRequest()
+    let batchDelete = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+    batchDelete.resultType = .resultTypeCount
+    do {
+      let result = try coreDataStack.managedContext.execute(
+          batchDelete) as! NSBatchDeleteResult
+      print("\(result.result!) records deleted")
+    } catch {
+      let nsError = error as NSError
+      print("Could not delete \(nsError), \(nsError.userInfo)")
+    }
+  }
 }
 
 // MARK: - IBActions
 extension ViewController {
-
   @IBAction func unwindToVenueListViewController(_ segue: UIStoryboardSegue) {
+  }
+
+  @IBAction func reset() {
+    deleteAllVenues()
+    (UIApplication.shared.delegate as! AppDelegate).importJSONSeedDataIfNeeded()
   }
 }
 
