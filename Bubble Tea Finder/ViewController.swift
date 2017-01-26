@@ -30,7 +30,7 @@ class ViewController: UIViewController {
   fileprivate let venueCellIdentifier = "VenueCell"
 
   var coreDataStack: CoreDataStack!
-  var fetchRequestForAllVenue: NSFetchRequest<Venue>!
+  var fetchRequest: NSFetchRequest<Venue>!
   var venues: [Venue]!
 
   // MARK: - IBOutlets
@@ -39,14 +39,7 @@ class ViewController: UIViewController {
   // MARK: - View Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
-    guard
-        let model = coreDataStack.managedContext
-            .persistentStoreCoordinator?.managedObjectModel,
-        let fetchRequest = model.fetchRequestTemplate(
-            forName: "FetchRequest") as? NSFetchRequest<Venue> else {
-      return
-    }
-    fetchRequestForAllVenue = fetchRequest
+    fetchRequest = Venue.fetchRequest()
     fetchAndReload()
   }
 
@@ -60,12 +53,13 @@ class ViewController: UIViewController {
     }
     
     filterVC.coreDataStack = coreDataStack
+    filterVC.delegate = self
   }
   
   // MARK: Other methods
-  private func fetchAndReload() {
+  func fetchAndReload() {
     do {
-      venues = try coreDataStack.managedContext.fetch(fetchRequestForAllVenue)
+      venues = try coreDataStack.managedContext.fetch(fetchRequest)
       tableView.reloadData()
     } catch {
       let nsError = error as NSError
@@ -99,5 +93,18 @@ extension ViewController: UITableViewDataSource {
     cell.textLabel?.text = venue.name
     cell.detailTextLabel?.text = venue.priceInfo?.priceCategory
     return cell
+  }
+}
+
+extension ViewController: FilterViewControllerDelegate {
+  func filterViewController(filter: FilterViewController,
+                            didSelectPredicate predicate: NSPredicate?,
+                            sortDescriptor: NSSortDescriptor?) {
+    fetchRequest.predicate = predicate
+    fetchRequest.sortDescriptors = nil
+    if let sr = sortDescriptor {
+      fetchRequest.sortDescriptors = [sr]
+    }
+    fetchAndReload()
   }
 }
