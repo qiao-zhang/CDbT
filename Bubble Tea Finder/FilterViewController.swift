@@ -53,11 +53,24 @@ class FilterViewController: UITableViewController {
                        #keyPath(Venue.priceInfo.priceCategory),
                        "$")
   }()
+  lazy var moderateVenuePredicate: NSPredicate = {
+    return NSPredicate(format: "%K == %@",
+                       #keyPath(Venue.priceInfo.priceCategory),
+                       "$$")
+  }()
+  lazy var expensiveVenuePredicate: NSPredicate = {
+    return NSPredicate(format: "%K == %@",
+                       #keyPath(Venue.priceInfo.priceCategory),
+                       "$$$")
+  }()
   
   // MARK: - View Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
     populateCheapVenueCountLabel()
+    populateModerateVenueCountLabel()
+    populateExpensiveVenueCountLabel()
+    populateDealsCountLabel()
   }
   
   // MARK: Helper methods
@@ -70,6 +83,59 @@ class FilterViewController: UITableViewController {
       let countResult = try coreDataStack.managedContext.fetch(fetchRequest)
       let count = countResult.first!.intValue
       firstPriceCategoryLabel.text = "\(count) bubble tea places"
+    } catch {
+      let nsError = error as NSError
+      print("Count not fetch \(nsError), \(nsError.userInfo)")
+    }
+  }
+  
+  private func populateModerateVenueCountLabel() {
+    let fetchRequest = NSFetchRequest<NSNumber>(entityName: "Venue")
+    fetchRequest.resultType = .countResultType
+    fetchRequest.predicate = moderateVenuePredicate
+    
+    do {
+      let countResult = try coreDataStack.managedContext.fetch(fetchRequest)
+      let count = countResult.first!.intValue
+      secondPriceCategoryLabel.text = "\(count) bubble tea places"
+    } catch {
+      let nsError = error as NSError
+      print("Count not fetch \(nsError), \(nsError.userInfo)")
+    }
+  }
+  
+  private func populateExpensiveVenueCountLabel() {
+    let fetchRequest: NSFetchRequest<Venue> = Venue.fetchRequest()
+    fetchRequest.predicate = expensiveVenuePredicate
+    
+    do {
+      let count = try coreDataStack.managedContext.count(for: fetchRequest)
+      thirdPriceCategoryLabel.text = "\(count) bubble tea places"
+    } catch {
+      let nsError = error as NSError
+      print("Count not fetch \(nsError), \(nsError.userInfo)")
+    }
+  }
+  
+  private func populateDealsCountLabel() {
+    let fetchRequest = NSFetchRequest<NSDictionary>(entityName: "Venue")
+    fetchRequest.resultType = .dictionaryResultType
+    
+    let sumExpressionDesc = NSExpressionDescription()
+    sumExpressionDesc.name = "sumDeals"
+    
+    let specialCountExp = NSExpression(forKeyPath: #keyPath(Venue.specialCount))
+    sumExpressionDesc.expression = NSExpression(forFunction: "sum:",
+                                                arguments: [specialCountExp])
+    sumExpressionDesc.expressionResultType = .integer32AttributeType
+    
+    fetchRequest.propertiesToFetch = [sumExpressionDesc]
+    
+    do {
+      let results = try coreDataStack.managedContext.fetch(fetchRequest)
+      let resultDict = results.first!
+      let numDeals = resultDict["sumDeals"]!
+      numDealsLabel.text = "\(numDeals) total deals"
     } catch {
       let nsError = error as NSError
       print("Count not fetch \(nsError), \(nsError.userInfo)")
