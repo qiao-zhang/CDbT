@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>UnCloudNotes.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>WorldCup.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -40,42 +45,47 @@
 		<key>E7507FE71E3ADA5E004F0826</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
+		</dict>
+		<key>E75080121E3BCB60004F0826</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 		<key>E76DCCB51E36A41800E1CB02</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 		<key>E76DCCCE1E36A44C00E1CB02</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 		<key>E76DCCE71E36D94A00E1CB02</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 		<key>E76DCD001E36DA4E00E1CB02</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 		<key>E7D565B11E37A69B004DC662</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 		<key>E7D565D41E37E0CD004DC662</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 		<key>E7D566131E37E43F004DC662</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 	</dict>
 </dict>

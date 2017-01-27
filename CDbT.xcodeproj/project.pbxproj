@@ -19,6 +19,20 @@
 		E75080061E3ADAFA004F0826 /* Team+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7507FFE1E3ADAFA004F0826 /* Team+CoreDataProperties.swift */; };
 		E75080071E3ADAFA004F0826 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7507FFF1E3ADAFA004F0826 /* TeamCell.swift */; };
 		E75080081E3ADAFA004F0826 /* WorldCup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E75080001E3ADAFA004F0826 /* WorldCup.xcdatamodeld */; };
+		E75080161E3BCB60004F0826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75080151E3BCB60004F0826 /* AppDelegate.swift */; };
+		E750801B1E3BCB60004F0826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75080191E3BCB60004F0826 /* Main.storyboard */; };
+		E750801D1E3BCB60004F0826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E750801C1E3BCB60004F0826 /* Assets.xcassets */; };
+		E75080201E3BCB60004F0826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E750801E1E3BCB60004F0826 /* LaunchScreen.storyboard */; };
+		E75080321E3BCD4D004F0826 /* AttachPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75080251E3BCD4C004F0826 /* AttachPhotoViewController.swift */; };
+		E75080331E3BCD4D004F0826 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75080261E3BCD4C004F0826 /* CoreDataStack.swift */; };
+		E75080341E3BCD4D004F0826 /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75080271E3BCD4D004F0826 /* CreateNoteViewController.swift */; };
+		E75080351E3BCD4D004F0826 /* ImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75080281E3BCD4D004F0826 /* ImageTransformer.swift */; };
+		E75080361E3BCD4D004F0826 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75080291E3BCD4D004F0826 /* Note.swift */; };
+		E75080371E3BCD4D004F0826 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750802A1E3BCD4D004F0826 /* NoteDetailViewController.swift */; };
+		E75080381E3BCD4D004F0826 /* NoteImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750802B1E3BCD4D004F0826 /* NoteImageTableViewCell.swift */; };
+		E75080391E3BCD4D004F0826 /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750802C1E3BCD4D004F0826 /* NotesListViewController.swift */; };
+		E750803A1E3BCD4D004F0826 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750802E1E3BCD4D004F0826 /* NoteTableViewCell.swift */; };
+		E750803B1E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E75080301E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodeld */; };
 		E76DCCD21E36A44C00E1CB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DCCD11E36A44C00E1CB02 /* AppDelegate.swift */; };
 		E76DCCD41E36A44C00E1CB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DCCD31E36A44C00E1CB02 /* ViewController.swift */; };
 		E76DCCD71E36A44C00E1CB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76DCCD51E36A44C00E1CB02 /* Main.storyboard */; };
@@ -82,6 +96,24 @@
 		E7507FFE1E3ADAFA004F0826 /* Team+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Team+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E7507FFF1E3ADAFA004F0826 /* TeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 		E75080011E3ADAFA004F0826 /* WorldCup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldCup.xcdatamodel; sourceTree = "<group>"; };
+		E75080131E3BCB60004F0826 /* UnCloudNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnCloudNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75080151E3BCB60004F0826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E750801A1E3BCB60004F0826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E750801C1E3BCB60004F0826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E750801F1E3BCB60004F0826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E75080211E3BCB60004F0826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75080251E3BCD4C004F0826 /* AttachPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachPhotoViewController.swift; sourceTree = "<group>"; };
+		E75080261E3BCD4C004F0826 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		E75080271E3BCD4D004F0826 /* CreateNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
+		E75080281E3BCD4D004F0826 /* ImageTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransformer.swift; sourceTree = "<group>"; };
+		E75080291E3BCD4D004F0826 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		E750802A1E3BCD4D004F0826 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		E750802B1E3BCD4D004F0826 /* NoteImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteImageTableViewCell.swift; sourceTree = "<group>"; };
+		E750802C1E3BCD4D004F0826 /* NotesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
+		E750802D1E3BCD4D004F0826 /* NotesListViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NotesListViewController+Additions.h"; sourceTree = "<group>"; };
+		E750802E1E3BCD4D004F0826 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		E750802F1E3BCD4D004F0826 /* UnCloudNotes.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = UnCloudNotes.entitlements; sourceTree = "<group>"; };
+		E75080311E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnCloudNotesDataModel.xcdatamodel; sourceTree = "<group>"; };
 		E76DCCCF1E36A44C00E1CB02 /* HitList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76DCCD11E36A44C00E1CB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E76DCCD31E36A44C00E1CB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +178,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E75080101E3BCB60004F0826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E76DCCCC1E36A44C00E1CB02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +236,30 @@
 			path = WorldCup;
 			sourceTree = "<group>";
 		};
+		E75080141E3BCB60004F0826 /* UnCloudNotes */ = {
+			isa = PBXGroup;
+			children = (
+				E75080251E3BCD4C004F0826 /* AttachPhotoViewController.swift */,
+				E75080261E3BCD4C004F0826 /* CoreDataStack.swift */,
+				E75080271E3BCD4D004F0826 /* CreateNoteViewController.swift */,
+				E75080281E3BCD4D004F0826 /* ImageTransformer.swift */,
+				E75080291E3BCD4D004F0826 /* Note.swift */,
+				E750802A1E3BCD4D004F0826 /* NoteDetailViewController.swift */,
+				E750802B1E3BCD4D004F0826 /* NoteImageTableViewCell.swift */,
+				E750802C1E3BCD4D004F0826 /* NotesListViewController.swift */,
+				E750802D1E3BCD4D004F0826 /* NotesListViewController+Additions.h */,
+				E750802E1E3BCD4D004F0826 /* NoteTableViewCell.swift */,
+				E750802F1E3BCD4D004F0826 /* UnCloudNotes.entitlements */,
+				E75080301E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodeld */,
+				E75080151E3BCB60004F0826 /* AppDelegate.swift */,
+				E75080191E3BCB60004F0826 /* Main.storyboard */,
+				E750801C1E3BCB60004F0826 /* Assets.xcassets */,
+				E750801E1E3BCB60004F0826 /* LaunchScreen.storyboard */,
+				E75080211E3BCB60004F0826 /* Info.plist */,
+			);
+			path = UnCloudNotes;
+			sourceTree = "<group>";
+		};
 		E76DCCAD1E36A41800E1CB02 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +268,7 @@
 				E7D565B31E37A69B004DC662 /* Dog Walk */,
 				E7D566151E37E43F004DC662 /* Bubble Tea Finder */,
 				E7507FE91E3ADA5E004F0826 /* WorldCup */,
+				E75080141E3BCB60004F0826 /* UnCloudNotes */,
 				E76DCCB71E36A41800E1CB02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -217,6 +281,7 @@
 				E7D565B21E37A69B004DC662 /* Dog Walk.app */,
 				E7D566141E37E43F004DC662 /* Bubble Tea Finder.app */,
 				E7507FE81E3ADA5E004F0826 /* WorldCup.app */,
+				E75080131E3BCB60004F0826 /* UnCloudNotes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -327,6 +392,23 @@
 			productReference = E7507FE81E3ADA5E004F0826 /* WorldCup.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E75080121E3BCB60004F0826 /* UnCloudNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75080221E3BCB60004F0826 /* Build configuration list for PBXNativeTarget "UnCloudNotes" */;
+			buildPhases = (
+				E750800F1E3BCB60004F0826 /* Sources */,
+				E75080101E3BCB60004F0826 /* Frameworks */,
+				E75080111E3BCB60004F0826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnCloudNotes;
+			productName = UnCloudNotes;
+			productReference = E75080131E3BCB60004F0826 /* UnCloudNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E76DCCCE1E36A44C00E1CB02 /* HitList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E76DCCE11E36A44C00E1CB02 /* Build configuration list for PBXNativeTarget "HitList" */;
@@ -410,6 +492,11 @@
 						DevelopmentTeam = 5H9H3DSGAL;
 						ProvisioningStyle = Automatic;
 					};
+					E75080121E3BCB60004F0826 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5H9H3DSGAL;
+						ProvisioningStyle = Automatic;
+					};
 					E76DCCCE1E36A44C00E1CB02 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 5H9H3DSGAL;
@@ -451,6 +538,7 @@
 				E7D565B11E37A69B004DC662 /* Dog Walk */,
 				E7D566131E37E43F004DC662 /* Bubble Tea Finder */,
 				E7507FE71E3ADA5E004F0826 /* WorldCup */,
+				E75080121E3BCB60004F0826 /* UnCloudNotes */,
 			);
 		};
 /* End PBXProject section */
@@ -465,6 +553,16 @@
 				E7507FF21E3ADA5E004F0826 /* Assets.xcassets in Resources */,
 				E75080021E3ADAFA004F0826 /* attribution.txt in Resources */,
 				E7507FF01E3ADA5E004F0826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75080111E3BCB60004F0826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75080201E3BCB60004F0826 /* LaunchScreen.storyboard in Resources */,
+				E750801D1E3BCB60004F0826 /* Assets.xcassets in Resources */,
+				E750801B1E3BCB60004F0826 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +623,24 @@
 				E7507FEB1E3ADA5E004F0826 /* AppDelegate.swift in Sources */,
 				E75080081E3ADAFA004F0826 /* WorldCup.xcdatamodeld in Sources */,
 				E75080061E3ADAFA004F0826 /* Team+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E750800F1E3BCB60004F0826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75080331E3BCD4D004F0826 /* CoreDataStack.swift in Sources */,
+				E75080371E3BCD4D004F0826 /* NoteDetailViewController.swift in Sources */,
+				E75080351E3BCD4D004F0826 /* ImageTransformer.swift in Sources */,
+				E750803A1E3BCD4D004F0826 /* NoteTableViewCell.swift in Sources */,
+				E75080381E3BCD4D004F0826 /* NoteImageTableViewCell.swift in Sources */,
+				E75080321E3BCD4D004F0826 /* AttachPhotoViewController.swift in Sources */,
+				E75080341E3BCD4D004F0826 /* CreateNoteViewController.swift in Sources */,
+				E75080161E3BCB60004F0826 /* AppDelegate.swift in Sources */,
+				E75080391E3BCD4D004F0826 /* NotesListViewController.swift in Sources */,
+				E75080361E3BCD4D004F0826 /* Note.swift in Sources */,
+				E750803B1E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +718,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E7507FF41E3ADA5E004F0826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E75080191E3BCB60004F0826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E750801A1E3BCB60004F0826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E750801E1E3BCB60004F0826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E750801F1E3BCB60004F0826 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -694,6 +826,32 @@
 				INFOPLIST_FILE = WorldCup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.qiaozhang.WorldCup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E75080231E3BCB60004F0826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H9H3DSGAL;
+				INFOPLIST_FILE = UnCloudNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qiaozhang.UnCloudNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E75080241E3BCB60004F0826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H9H3DSGAL;
+				INFOPLIST_FILE = UnCloudNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qiaozhang.UnCloudNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -908,6 +1066,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
+		E75080221E3BCB60004F0826 /* Build configuration list for PBXNativeTarget "UnCloudNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75080231E3BCB60004F0826 /* Debug */,
+				E75080241E3BCB60004F0826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E76DCCB11E36A41800E1CB02 /* Build configuration list for PBXProject "CDbT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -963,6 +1129,16 @@
 			);
 			currentVersion = E75080011E3ADAFA004F0826 /* WorldCup.xcdatamodel */;
 			path = WorldCup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		E75080301E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E75080311E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodel */,
+			);
+			currentVersion = E75080311E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodel */;
+			path = UnCloudNotesDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
