@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7507FEB1E3ADA5E004F0826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7507FEA1E3ADA5E004F0826 /* AppDelegate.swift */; };
+		E7507FED1E3ADA5E004F0826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7507FEC1E3ADA5E004F0826 /* ViewController.swift */; };
+		E7507FF01E3ADA5E004F0826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7507FEE1E3ADA5E004F0826 /* Main.storyboard */; };
+		E7507FF21E3ADA5E004F0826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7507FF11E3ADA5E004F0826 /* Assets.xcassets */; };
+		E7507FF51E3ADA5E004F0826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7507FF31E3ADA5E004F0826 /* LaunchScreen.storyboard */; };
+		E75080021E3ADAFA004F0826 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7507FFA1E3ADAFA004F0826 /* attribution.txt */; };
+		E75080031E3ADAFA004F0826 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7507FFB1E3ADAFA004F0826 /* CoreDataStack.swift */; };
+		E75080041E3ADAFA004F0826 /* seed.json in Resources */ = {isa = PBXBuildFile; fileRef = E7507FFC1E3ADAFA004F0826 /* seed.json */; };
+		E75080051E3ADAFA004F0826 /* Team+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7507FFD1E3ADAFA004F0826 /* Team+CoreDataClass.swift */; };
+		E75080061E3ADAFA004F0826 /* Team+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7507FFE1E3ADAFA004F0826 /* Team+CoreDataProperties.swift */; };
+		E75080071E3ADAFA004F0826 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7507FFF1E3ADAFA004F0826 /* TeamCell.swift */; };
+		E75080081E3ADAFA004F0826 /* WorldCup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E75080001E3ADAFA004F0826 /* WorldCup.xcdatamodeld */; };
 		E76DCCD21E36A44C00E1CB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DCCD11E36A44C00E1CB02 /* AppDelegate.swift */; };
 		E76DCCD41E36A44C00E1CB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DCCD31E36A44C00E1CB02 /* ViewController.swift */; };
 		E76DCCD71E36A44C00E1CB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76DCCD51E36A44C00E1CB02 /* Main.storyboard */; };
@@ -38,7 +50,6 @@
 		E7D5664A1E37E517004DC662 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7D566421E37E517004DC662 /* attribution.txt */; };
 		E7D5664B1E37E517004DC662 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566431E37E517004DC662 /* CoreDataStack.swift */; };
 		E7D5664C1E37E517004DC662 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566441E37E517004DC662 /* FilterViewController.swift */; };
-		E7D5664D1E37E517004DC662 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7D566451E37E517004DC662 /* Info.plist */; };
 		E7D5664E1E37E517004DC662 /* seed.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D566461E37E517004DC662 /* seed.json */; };
 		E7D5664F1E37E517004DC662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D566471E37E517004DC662 /* ViewController.swift */; };
 		E7D5665C1E37E553004DC662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D566501E37E553004DC662 /* Assets.xcassets */; };
@@ -57,6 +68,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7507FE81E3ADA5E004F0826 /* WorldCup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7507FEA1E3ADA5E004F0826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7507FEC1E3ADA5E004F0826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7507FEF1E3ADA5E004F0826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7507FF11E3ADA5E004F0826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7507FF41E3ADA5E004F0826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7507FF61E3ADA5E004F0826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7507FFA1E3ADAFA004F0826 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		E7507FFB1E3ADAFA004F0826 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		E7507FFC1E3ADAFA004F0826 /* seed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seed.json; sourceTree = "<group>"; };
+		E7507FFD1E3ADAFA004F0826 /* Team+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Team+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7507FFE1E3ADAFA004F0826 /* Team+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Team+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7507FFF1E3ADAFA004F0826 /* TeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		E75080011E3ADAFA004F0826 /* WorldCup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldCup.xcdatamodel; sourceTree = "<group>"; };
 		E76DCCCF1E36A44C00E1CB02 /* HitList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76DCCD11E36A44C00E1CB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E76DCCD31E36A44C00E1CB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +139,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E7507FE51E3ADA5E004F0826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E76DCCCC1E36A44C00E1CB02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +177,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7507FE91E3ADA5E004F0826 /* WorldCup */ = {
+			isa = PBXGroup;
+			children = (
+				E7507FFA1E3ADAFA004F0826 /* attribution.txt */,
+				E7507FFB1E3ADAFA004F0826 /* CoreDataStack.swift */,
+				E7507FFC1E3ADAFA004F0826 /* seed.json */,
+				E7507FFD1E3ADAFA004F0826 /* Team+CoreDataClass.swift */,
+				E7507FFE1E3ADAFA004F0826 /* Team+CoreDataProperties.swift */,
+				E7507FFF1E3ADAFA004F0826 /* TeamCell.swift */,
+				E75080001E3ADAFA004F0826 /* WorldCup.xcdatamodeld */,
+				E7507FEA1E3ADA5E004F0826 /* AppDelegate.swift */,
+				E7507FEC1E3ADA5E004F0826 /* ViewController.swift */,
+				E7507FEE1E3ADA5E004F0826 /* Main.storyboard */,
+				E7507FF11E3ADA5E004F0826 /* Assets.xcassets */,
+				E7507FF31E3ADA5E004F0826 /* LaunchScreen.storyboard */,
+				E7507FF61E3ADA5E004F0826 /* Info.plist */,
+			);
+			path = WorldCup;
+			sourceTree = "<group>";
+		};
 		E76DCCAD1E36A41800E1CB02 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +204,7 @@
 				E76DCD021E36DA4E00E1CB02 /* Bow Ties */,
 				E7D565B31E37A69B004DC662 /* Dog Walk */,
 				E7D566151E37E43F004DC662 /* Bubble Tea Finder */,
+				E7507FE91E3ADA5E004F0826 /* WorldCup */,
 				E76DCCB71E36A41800E1CB02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,6 +216,7 @@
 				E76DCD011E36DA4E00E1CB02 /* Bow Ties.app */,
 				E7D565B21E37A69B004DC662 /* Dog Walk.app */,
 				E7D566141E37E43F004DC662 /* Bubble Tea Finder.app */,
+				E7507FE81E3ADA5E004F0826 /* WorldCup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,6 +310,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E7507FE71E3ADA5E004F0826 /* WorldCup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7507FF71E3ADA5E004F0826 /* Build configuration list for PBXNativeTarget "WorldCup" */;
+			buildPhases = (
+				E7507FE41E3ADA5E004F0826 /* Sources */,
+				E7507FE51E3ADA5E004F0826 /* Frameworks */,
+				E7507FE61E3ADA5E004F0826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldCup;
+			productName = WorldCup;
+			productReference = E7507FE81E3ADA5E004F0826 /* WorldCup.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E76DCCCE1E36A44C00E1CB02 /* HitList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E76DCCE11E36A44C00E1CB02 /* Build configuration list for PBXNativeTarget "HitList" */;
@@ -334,6 +405,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Qiao Zhang";
 				TargetAttributes = {
+					E7507FE71E3ADA5E004F0826 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5H9H3DSGAL;
+						ProvisioningStyle = Automatic;
+					};
 					E76DCCCE1E36A44C00E1CB02 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 5H9H3DSGAL;
@@ -374,11 +450,24 @@
 				E76DCD001E36DA4E00E1CB02 /* Bow Ties */,
 				E7D565B11E37A69B004DC662 /* Dog Walk */,
 				E7D566131E37E43F004DC662 /* Bubble Tea Finder */,
+				E7507FE71E3ADA5E004F0826 /* WorldCup */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E7507FE61E3ADA5E004F0826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75080041E3ADAFA004F0826 /* seed.json in Resources */,
+				E7507FF51E3ADA5E004F0826 /* LaunchScreen.storyboard in Resources */,
+				E7507FF21E3ADA5E004F0826 /* Assets.xcassets in Resources */,
+				E75080021E3ADAFA004F0826 /* attribution.txt in Resources */,
+				E7507FF01E3ADA5E004F0826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E76DCCCD1E36A44C00E1CB02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,7 +503,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D5664D1E37E517004DC662 /* Info.plist in Resources */,
 				E7D5664E1E37E517004DC662 /* seed.json in Resources */,
 				E7D5665C1E37E553004DC662 /* Assets.xcassets in Resources */,
 				E7D5666C1E37E563004DC662 /* Main.storyboard in Resources */,
@@ -426,6 +514,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E7507FE41E3ADA5E004F0826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75080031E3ADAFA004F0826 /* CoreDataStack.swift in Sources */,
+				E7507FED1E3ADA5E004F0826 /* ViewController.swift in Sources */,
+				E75080071E3ADAFA004F0826 /* TeamCell.swift in Sources */,
+				E75080051E3ADAFA004F0826 /* Team+CoreDataClass.swift in Sources */,
+				E7507FEB1E3ADA5E004F0826 /* AppDelegate.swift in Sources */,
+				E75080081E3ADAFA004F0826 /* WorldCup.xcdatamodeld in Sources */,
+				E75080061E3ADAFA004F0826 /* Team+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E76DCCCB1E36A44C00E1CB02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,6 +590,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E7507FEE1E3ADA5E004F0826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7507FEF1E3ADA5E004F0826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7507FF31E3ADA5E004F0826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7507FF41E3ADA5E004F0826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		E76DCCD51E36A44C00E1CB02 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -555,6 +673,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E7507FF81E3ADA5E004F0826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H9H3DSGAL;
+				INFOPLIST_FILE = WorldCup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qiaozhang.WorldCup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E7507FF91E3ADA5E004F0826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H9H3DSGAL;
+				INFOPLIST_FILE = WorldCup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qiaozhang.WorldCup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		E76DCCC61E36A41800E1CB02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -756,6 +900,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E7507FF71E3ADA5E004F0826 /* Build configuration list for PBXNativeTarget "WorldCup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7507FF81E3ADA5E004F0826 /* Debug */,
+				E7507FF91E3ADA5E004F0826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E76DCCB11E36A41800E1CB02 /* Build configuration list for PBXProject "CDbT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -790,6 +942,7 @@
 				E7D565C21E37A69B004DC662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7D566231E37E43F004DC662 /* Build configuration list for PBXNativeTarget "Bubble Tea Finder" */ = {
 			isa = XCConfigurationList;
@@ -798,10 +951,21 @@
 				E7D566251E37E43F004DC662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		E75080001E3ADAFA004F0826 /* WorldCup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E75080011E3ADAFA004F0826 /* WorldCup.xcdatamodel */,
+			);
+			currentVersion = E75080011E3ADAFA004F0826 /* WorldCup.xcdatamodel */;
+			path = WorldCup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		E76DCCD81E36A44C00E1CB02 /* HitList.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
