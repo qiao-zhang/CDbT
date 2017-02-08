@@ -64,6 +64,8 @@ class CoreDataStack {
   
   lazy var storeDescription: NSPersistentStoreDescription = {
     let description = NSPersistentStoreDescription(url: self.storeURL)
+    description.shouldMigrateStoreAutomatically = true
+    description.shouldInferMappingModelAutomatically = false
     return description
   }()
   
@@ -83,8 +85,9 @@ class CoreDataStack {
 
     do {
       try managedContext.save()
-    } catch let error as NSError {
-      fatalError("Unresolved error \(error), \(error.userInfo)")
+    } catch {
+      let nsError = error as NSError
+      fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
     }
   }
 }
