@@ -50,6 +50,7 @@
 		E76DCD231E36E8B400E1CB02 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E76DCD221E36E8B400E1CB02 /* SampleData.plist */; };
 		E77C4AFE1E4B943200E7767A /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C4AFD1E4B943200E7767A /* Attachment.swift */; };
 		E77C4B001E4B972800E7767A /* UnCloudNotesMappingModel_v2_to_v3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = E77C4AFF1E4B972800E7767A /* UnCloudNotesMappingModel_v2_to_v3.xcmappingmodel */; };
+		E77C4B031E4BC14700E7767A /* ImageAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C4B021E4BC14700E7767A /* ImageAttachment.swift */; };
 		E7D565B51E37A69B004DC662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D565B41E37A69B004DC662 /* AppDelegate.swift */; };
 		E7D565B71E37A69B004DC662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D565B61E37A69B004DC662 /* ViewController.swift */; };
 		E7D565BA1E37A69B004DC662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D565B81E37A69B004DC662 /* Main.storyboard */; };
@@ -139,6 +140,8 @@
 		E77C4AFC1E4B810000E7767A /* UnCloudNotesDataModel v3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UnCloudNotesDataModel v3.xcdatamodel"; sourceTree = "<group>"; };
 		E77C4AFD1E4B943200E7767A /* Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
 		E77C4AFF1E4B972800E7767A /* UnCloudNotesMappingModel_v2_to_v3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = UnCloudNotesMappingModel_v2_to_v3.xcmappingmodel; sourceTree = "<group>"; };
+		E77C4B011E4BC02000E7767A /* UnCloudNotesDataModel v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UnCloudNotesDataModel v4.xcdatamodel"; sourceTree = "<group>"; };
+		E77C4B021E4BC14700E7767A /* ImageAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAttachment.swift; sourceTree = "<group>"; };
 		E7D565B21E37A69B004DC662 /* Dog Walk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Walk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D565B41E37A69B004DC662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7D565B61E37A69B004DC662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -264,6 +267,7 @@
 				E750801E1E3BCB60004F0826 /* LaunchScreen.storyboard */,
 				E75080211E3BCB60004F0826 /* Info.plist */,
 				E77C4AFD1E4B943200E7767A /* Attachment.swift */,
+				E77C4B021E4BC14700E7767A /* ImageAttachment.swift */,
 			);
 			path = UnCloudNotes;
 			sourceTree = "<group>";
@@ -650,6 +654,7 @@
 				E77C4B001E4B972800E7767A /* UnCloudNotesMappingModel_v2_to_v3.xcmappingmodel in Sources */,
 				E75080391E3BCD4D004F0826 /* NotesListViewController.swift in Sources */,
 				E75080361E3BCD4D004F0826 /* Note.swift in Sources */,
+				E77C4B031E4BC14700E7767A /* ImageAttachment.swift in Sources */,
 				E750803B1E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1147,11 +1152,12 @@
 		E75080301E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				E77C4B011E4BC02000E7767A /* UnCloudNotesDataModel v4.xcdatamodel */,
 				E77C4AFC1E4B810000E7767A /* UnCloudNotesDataModel v3.xcdatamodel */,
 				E77C4AFB1E4B747700E7767A /* UnCloudNotesDataModel v2.xcdatamodel */,
 				E75080311E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodel */,
 			);
-			currentVersion = E77C4AFC1E4B810000E7767A /* UnCloudNotesDataModel v3.xcdatamodel */;
+			currentVersion = E77C4B011E4BC02000E7767A /* UnCloudNotesDataModel v4.xcdatamodel */;
 			path = UnCloudNotesDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
