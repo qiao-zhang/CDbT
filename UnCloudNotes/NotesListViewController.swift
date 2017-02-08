@@ -26,14 +26,19 @@ import CoreData
 class NotesListViewController: UITableViewController {
 
   // MARK: - Properties
-  fileprivate lazy var stack: CoreDataStack = CoreDataStack(modelName:"UnCloudNotesDataModel")
+  fileprivate lazy var stack: CoreDataStack =
+    CoreDataStack(modelName:"UnCloudNotesDataModel")
 
   fileprivate lazy var notes: NSFetchedResultsController<Note> = {
     let context = self.stack.managedContext
     let request = Note.fetchRequest() as! NSFetchRequest<Note>
-    request.sortDescriptors = [NSSortDescriptor(key: #keyPath(Note.dateCreated), ascending: false)]
+    request.sortDescriptors =
+      [NSSortDescriptor(key: #keyPath(Note.dateCreated), ascending: false)]
 
-    let notes = NSFetchedResultsController(fetchRequest: request, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
+    let notes = NSFetchedResultsController(fetchRequest: request,
+                                           managedObjectContext: context,
+                                           sectionNameKeyPath: nil,
+                                           cacheName: nil)
     notes.delegate = self
     return notes
   }()
@@ -54,8 +59,10 @@ class NotesListViewController: UITableViewController {
   // MARK: - Navigation
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if let navController = segue.destination as? UINavigationController,
-      let viewController = navController.topViewController as? UsesCoreDataObjects {
-        viewController.managedObjectContext = stack.savingContext
+      let viewController = navController.topViewController
+        as? UsesCoreDataObjects {
+
+      viewController.managedObjectContext = stack.savingContext
     }
 
     if let detailView = segue.destination as? NoteDisplayable,
