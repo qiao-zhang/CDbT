@@ -42,7 +42,9 @@ class CoreDataStack {
 
   var storeName: String = "UnCloudNotesDataModel"
   var storeURL : URL {
-    let storePaths = NSSearchPathForDirectoriesInDomains(.applicationSupportDirectory, .userDomainMask, true)
+    let storePaths = NSSearchPathForDirectoriesInDomains(
+        .applicationSupportDirectory,
+        .userDomainMask, true)
     let storePath = storePaths[0] as NSString
     let fileManager = FileManager.default
     

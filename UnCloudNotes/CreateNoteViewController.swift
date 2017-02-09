@@ -41,7 +41,7 @@ class CreateNoteViewController: UIViewController, UsesCoreDataObjects {
   // MARK: - View Life Cycle
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    titleField.becomeFirstResponder()
+    attachedPhoto.image = note?.image
   }
   
   // MARK: - Navigation

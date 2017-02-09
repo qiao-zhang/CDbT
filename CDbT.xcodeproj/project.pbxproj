@@ -133,6 +133,7 @@
 		E76DCD1E1E36E37000E1CB02 /* Bowtie+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E76DCD1F1E36E37000E1CB02 /* Bowtie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E76DCD221E36E8B400E1CB02 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		E77C4B0A1E4D08E700E7767A /* UnCloudNotesDataModel v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UnCloudNotesDataModel v2.xcdatamodel"; sourceTree = "<group>"; };
 		E7D565B21E37A69B004DC662 /* Dog Walk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Walk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D565B41E37A69B004DC662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7D565B61E37A69B004DC662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1065,6 +1066,7 @@
 				E7507FF91E3ADA5E004F0826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E75080221E3BCB60004F0826 /* Build configuration list for PBXNativeTarget "UnCloudNotes" */ = {
 			isa = XCConfigurationList;
@@ -1073,6 +1075,7 @@
 				E75080241E3BCB60004F0826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E76DCCB11E36A41800E1CB02 /* Build configuration list for PBXProject "CDbT" */ = {
 			isa = XCConfigurationList;
@@ -1135,9 +1138,10 @@
 		E75080301E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				E77C4B0A1E4D08E700E7767A /* UnCloudNotesDataModel v2.xcdatamodel */,
 				E75080311E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodel */,
 			);
-			currentVersion = E75080311E3BCD4D004F0826 /* UnCloudNotesDataModel.xcdatamodel */;
+			currentVersion = E77C4B0A1E4D08E700E7767A /* UnCloudNotesDataModel v2.xcdatamodel */;
 			path = UnCloudNotesDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
