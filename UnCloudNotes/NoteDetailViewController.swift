@@ -22,11 +22,7 @@
 
 import UIKit
 
-protocol NoteDisplayable: class {
-  var note: Note? { get set }
-}
-
-class NoteDetailViewController: UIViewController, NoteDisplayable {
+class NoteDetailViewController: UIViewController {
 
   // MARK: - Properties
   var note: Note? {

@@ -46,8 +46,7 @@ class CreateNoteViewController: UIViewController, UsesCoreDataObjects {
   
   // MARK: - Navigation
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    guard let nextViewController = segue.destination as? NoteDisplayable else { return }
-
+    guard let nextViewController = segue.destination as? NoteDetailViewController else { return }
     nextViewController.note = note
   }
 }

@@ -58,9 +58,17 @@ class NotesListViewController: UITableViewController {
         viewController.managedObjectContext = stack.savingContext
     }
 
-    if let detailView = segue.destination as? NoteDisplayable,
+    if let detailView = segue.destination as? NoteDetailViewController,
       let selectedIndex = tableView.indexPathForSelectedRow {
         detailView.note = notes.object(at: selectedIndex)
+    }
+    
+    if let detailView = segue.destination
+        as? NoteWithAttachmentsDetailViewController,
+       let selectedIndex = tableView.indexPathForSelectedRow {
+      let note = notes.object(at: selectedIndex)
+      let presenter = NoteWithAttachmentsPresenter(note: note, view: detailView)
+      detailView.eventHandler = presenter
     }
   }
 }

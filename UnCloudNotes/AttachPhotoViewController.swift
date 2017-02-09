@@ -66,5 +66,5 @@ extension AttachPhotoViewController: UINavigationControllerDelegate {
 }
 
 // MARK: - NoteDisplayable
-extension AttachPhotoViewController: NoteDisplayable {
-}
+//extension AttachPhotoViewController: NoteDisplayable {
+//}
